@@ -81,12 +81,11 @@ class View {
 		$c = '<form action="'.$this->router->registrationPage().'"method="POST">'."\n";
 
 		
-		$c .= "<div class=container>
-				<h1>Inscrivez-vous</h1>
-			    <p>Merci de remplir les informations ci-dessous afin de d'effectuer votre inscription.</p> </div>
-			    <hr class = lineregister> 
-
-			    <div class = form>
+		$c .= "<h1>Inscrivez-vous</h1>
+			    <p>Merci de remplir les informations ci-dessous afin de d'effectuer votre inscription.</p>
+			    <hr>
+			    
+			    <div class=container>
 			    <label><b>Login</b></label> </br>
 			    <input type=text placeholder='Enter your username' name=usr> </br>
 
@@ -94,9 +93,9 @@ class View {
 			    <input type=password placeholder='Enter password' name=psw> </br>
 
 			    <label><b>Confirmez votre mot de passe</b></label> </br> 
-			    <input type=password placeholder='Confirm your password' name=repeatpsw> </br> </br> </div>
+			    <input type=password placeholder='Confirm your password' name=repeatpsw> </br> </div>";
 
-			<button class = regi type = submit name = creerCpt > Créez votre compte </button> </div>";
+		$c .= "<button class = regi type = submit name = creerCpt > Créez votre compte </button>";
 
 		$this->content = $c;
 	}

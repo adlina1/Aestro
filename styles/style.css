@@ -1,3 +1,7 @@
+/*****************************/
+/** (1) --Page d'Accueil-- **/
+/****************************/
+
 .header {
   padding: 60px;
   text-align: center;
@@ -26,28 +30,49 @@ a:hover, a:active {
   background-color: red;
 }
 
-input[type=text]:focus {
+/*************************************/
+/** (2) --Page d'Authentification-- **/
+/*************************************/
+
+/** Lors du clic sur les deux zones de textes email & password **/
+
+input[type=text]:focus { 
   border: 2px solid #6588e1;
   height: 1.8em;
   border-radius: 5px;
 }
 
-input[type=password]:focus {
+input[type=password]:focus { 
   border: 2px solid #6588e1;
   height: 1.8em;	
   border-radius: 5px;
 }
 
+/** ******************** **/
+
 button{
-	background-color: #6588e1;
+	background-color: #5aec36;
+	font-weight: bold;
 	color: white;
+	width: 10%;
 	height:2em;
 	border-radius: 5px;	
 	border:none;
-	margin-left: 50%;
+	margin-left: 47%;
+	cursor: pointer;
 }
 
-button:hover{ 	/* couleur au survol de la souris */
+button:hover{
+	background-color: #4bc52c;
+}
+
+button.inscript{
+	margin-top: 1.3em;
+	width: 10%;
+	background-color: #6588e1;
+}
+
+button.inscript:hover{ 	/* couleur au survol de la souris */
 	background-color: #385dbd;
 }
 
@@ -62,4 +87,43 @@ button:hover{ 	/* couleur au survol de la souris */
 input{
 	margin-top: 2em;
 	margin-bottom: 2%;
+}
+
+hr {
+   width:50%;
+   margin-top: 2em;
+   color:#c1bcbb;
+}
+
+/********************************/
+/** (3) --Page d'Inscription-- **/
+/********************************/
+
+
+button.regi {
+	width:12%;
+}
+
+div.container{
+  margin-left: 31%;
+  width: 50%;
+}
+
+div.form {
+  margin-top: 2em;
+  margin-left: 45%;
+  width: 50%;
+}
+
+hr.lineregister{
+	margin-left: 30%;
+}
+
+/*p.res{
+	margin-top: 50%;
+	margin-left: 45%;
+}*/
+
+p.err{
+	color:red;
 }

@@ -72,11 +72,9 @@ session_start();
 
 			  		$bd->prepare($new_entry)->execute([$login,$pswduser_i]);
 
-			  		echo "<p class=res> Compte créé! </p>";
-
 
 			  	} else {
-			  		echo "<p class = err> Erreur: les mots de passe ne sont pas identiques </p>";
+			  		echo "Les mot de passe ne sont pas identique";
 			  	}
 			}
 }

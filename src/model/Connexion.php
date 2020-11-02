@@ -12,7 +12,7 @@ session_start();
 		$user = "21809174";
 		$pswd = "c4Q4jlaqfjytpkFW";
 		//hasher les mots de passe
-		//sécurité injections..
+
 
 		/** Connexion aux serveurs mysql de la fac **/
 		try {

@@ -45,7 +45,7 @@ class View {
 		$this->title = "Aestro";
 		$c = " <div class=header>
 			  	<h1>Bienvenue sur Aestro</h1>
-			  	<p>Le site de l'astronomie et de l'aéronotique</p>
+			  	<p>Le site de l'astronomie et de l'aéronautique</p>
 				</div>
 				<div class=signinup>
 				<a href=https://dev-21809174.users.info.unicaen.fr/projet-inf5c-2020/?action=authentification> Créer un compte/S'identifier</a></div>";

@@ -1,0 +1,23 @@
+.apropos {
+    color: white;
+}
+
+.apropos h3 {
+    padding: 1%;
+    display: block;
+    text-align: center;
+    border:1px solid#232423;
+    background-color:#232423;
+    color: rgb(143, 142, 142);
+}
+
+.apropos p,ul {
+    margin-left: 1em;
+    margin-right: 1em;
+    list-style-type:none;
+
+}
+
+.apropos p {
+    text-align: justify;
+}

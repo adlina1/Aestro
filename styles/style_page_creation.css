@@ -1,0 +1,31 @@
+#creation {
+    width:700px;
+    margin:0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#creation fieldset {
+    border: 2px solid  #3960a5;
+}
+
+#creation h2 {
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#creation form {
+    width:100%;
+    color: white;
+    padding: 30px;
+}
+
+.create {
+    margin-bottom: 5%;
+}
+
+#phrase {
+    color: white;
+    margin-left: 1%;
+}

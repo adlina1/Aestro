@@ -1,0 +1,37 @@
+.header {
+    height: 600px;
+    width: 100%;
+    margin-left: 0%;
+    background: url(../images/activite-aeronautique.jpg) top left / 100% 100%;
+    animation:animback 12s infinite;
+}
+ 
+@keyframes animback {
+    33% {background:url(../images/univers.jpg) top left / 100% 100%;}
+    66% {background:url(../images/aero2.jpg) top left / 100% 100%;}
+    99% {background:url(../images/astro7.jpg) top left / 100% 100%;}
+}
+
+main img {
+    width: 100%;
+    float: left;
+}
+
+#art1 figure {
+    float: left;
+    width: 150px;
+    margin-left: 0;
+}
+
+#art2 figure {
+    float: right;
+    width: 150px;
+    margin-right: 0;
+}
+
+main section{
+    color: rgb(218, 214, 214);
+    text-align: justify;
+    margin-right: 1%;
+    margin-left: 1%;
+}

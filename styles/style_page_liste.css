@@ -1,0 +1,45 @@
+/*****************************************************/
+/******** --style sur la liste des animaux--  ********/
+
+.liste a {
+    text-decoration: dotted;
+    background-color: #123366;
+    color: white;
+}
+
+.liste a:hover{
+    background-color: rgb(42, 137, 219);
+}
+
+/********************************************/
+/******** --style sur mes clichés--  ********/
+/********************************************/
+.button2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #252f3f;
+    text-align: center;
+    float: right;
+    margin: 10% 3%;
+    border-radius: 10px;
+}
+
+.button2 li {
+    display: inline-block;
+    position: relative;
+}
+
+.button2 li a {
+    display: block;
+    color: rgb(218, 214, 214);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.button2 li a:hover:not(.active) {
+    background-color: rgb(230, 28, 28);
+}

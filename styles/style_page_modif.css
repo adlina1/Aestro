@@ -1,0 +1,54 @@
+/***************************************************************************/
+/*************** --style sur la modification d'un animal--  ****************/
+/***************************************************************************/
+
+#modification {
+    width:700px;
+    margin:0 auto;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+#modification fieldset {
+    border: 2px solid  #3960a5;
+}
+
+#modification legend {
+    color: #0761fd;
+}
+
+#modification h2 {
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+#modification form {
+    width:100%;
+    color: white;
+    padding: 30px;
+}
+
+/***************************************************************************/
+/*************** --style sur la modification d'une image--  ****************/
+/***************************************************************************/
+
+
+.uploadChamp1bis {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 25%;
+    width: 31%;
+    color: white;
+}
+
+.uploadChamp1bis fieldset {
+    color: #0761fd;
+    border: 2px solid  #3960a5;
+}
+
+.modifier {
+    margin-top: 2em;
+    margin-left: 38%;
+    width: auto;
+}
